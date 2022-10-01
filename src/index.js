@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./styles.css";
+import "./style.css";
 
 function MyResume() {
   return (
@@ -19,9 +19,9 @@ function MyResume() {
           <li className="pinfo">
             <u>send2raza@gmail.com</u> +92 3333748662
           </li>
-          <li className="pinfo">
+          <li className="pinfo">Web:
             <a href="https://raza-app.web.app" target="_blank" rel="noreferrer">
-              Web: My profile page
+              View profile page
             </a>
           </li>
         </ul>
@@ -29,7 +29,7 @@ function MyResume() {
 
       <div>
         <ul>
-          <h2 className="subhead">Education</h2>
+          <h2 className="subhead-1">Education</h2>
           <li>
             <h3>Bachlors of Computer Science</h3>
           </li>
@@ -51,7 +51,7 @@ function MyResume() {
       </div>
       <div>
         <ul>
-          <h2 className="subhead">Professional Experience</h2>
+          <h2 className="subhead-all">Professional Experience</h2>
           <li>
             <h3>Systems Limited</h3>
           </li>
@@ -71,7 +71,7 @@ function MyResume() {
       </div>
       <div>
         <ul>
-          <h2 className="subhead">Technical Skills</h2>
+          <h2 className="subhead-all">Technical Skills</h2>
           <li>
             <h3>Languages</h3>
           </li>
